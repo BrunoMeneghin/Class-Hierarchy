@@ -29,7 +29,7 @@ class AllMediaViewController: UIViewController, UITableViewDataSource, UITableVi
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! AllMediaCellTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! AllMediaTableViewCell
         
         cell.textLabel?.text = showMedia.movies[indexPath.row]
         cell.detailTextLabel?.text = showMedia.songs[indexPath.row]

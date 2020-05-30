@@ -20,7 +20,7 @@
 		68EB1214247878CC0011DC97 /* MediaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EB1213247878CC0011DC97 /* MediaItem.swift */; };
 		68EB1216247878DC0011DC97 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EB1215247878DC0011DC97 /* Movie.swift */; };
 		68EB121D247881620011DC97 /* AllMediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EB121C247881620011DC97 /* AllMediaViewController.swift */; };
-		68EB121F2478835D0011DC97 /* AllMediaCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EB121E2478835D0011DC97 /* AllMediaCellTableViewCell.swift */; };
+		68EB121F2478835D0011DC97 /* AllMediaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EB121E2478835D0011DC97 /* AllMediaTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +60,7 @@
 		68EB1213247878CC0011DC97 /* MediaItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaItem.swift; sourceTree = "<group>"; };
 		68EB1215247878DC0011DC97 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		68EB121C247881620011DC97 /* AllMediaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllMediaViewController.swift; sourceTree = "<group>"; };
-		68EB121E2478835D0011DC97 /* AllMediaCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllMediaCellTableViewCell.swift; sourceTree = "<group>"; };
+		68EB121E2478835D0011DC97 /* AllMediaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllMediaTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,7 +163,7 @@
 		68EB1221247883900011DC97 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				68EB121E2478835D0011DC97 /* AllMediaCellTableViewCell.swift */,
+				68EB121E2478835D0011DC97 /* AllMediaTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -314,7 +314,7 @@
 				68EB11DF247878270011DC97 /* AppDelegate.swift in Sources */,
 				68EB11E1247878270011DC97 /* SceneDelegate.swift in Sources */,
 				68EB1212247878B60011DC97 /* Song.swift in Sources */,
-				68EB121F2478835D0011DC97 /* AllMediaCellTableViewCell.swift in Sources */,
+				68EB121F2478835D0011DC97 /* AllMediaTableViewCell.swift in Sources */,
 				68AE261E24788C870049E138 /* ShowMedia.swift in Sources */,
 				68EB1214247878CC0011DC97 /* MediaItem.swift in Sources */,
 				68EB121D247881620011DC97 /* AllMediaViewController.swift in Sources */,

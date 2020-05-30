@@ -13,7 +13,7 @@ class ShowMedia {
         var movies = [String]()
         var songs = [String]()
         
-        let library = [
+        private let library = [
             Movie(name: "Casablanca", director: "Michael Curtiz"),
             Song(name: "Blue Suede Shoes", artist: "Elvis Presley"),
             Movie(name: "Citizen Kane", director: "Orson Welles"),
@@ -28,8 +28,6 @@ class ShowMedia {
                     songs.append("Song: \(song.name), by \(song.artist)")
                 }
             }
-            
-            // the type of "library" is inferred to be [MediaItem]
         }
     }
     

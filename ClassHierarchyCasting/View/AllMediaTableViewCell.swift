@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AllMediaCellTableViewCell: UITableViewCell {
+class AllMediaTableViewCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
